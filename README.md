@@ -1,9 +1,5 @@
-### SpringBoot整合Security及应用场景
-本案例参考蚂蚁课堂
-什么是Security
-Security应用场景
-SpringBoot整合Security
-Maven依赖信息
+### SpringBoot整合Security及应用场景（本案例参考蚂蚁课堂）
+
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -179,13 +175,7 @@ public class ErrorController {
 }
 
 
-自定义WEB 服务器参数
-/**
- * 自定义 WEB 服务器参数 可以配置默认错误页面
- *
- * @author 余胜军
- * @version 2018年11月12日
- */
+自定义WEB 服务器参数 可以配置默认错误页面
 @Configuration
 public class WebServerAutoConfiguration {
 	@Bean
