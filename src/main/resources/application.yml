@@ -18,11 +18,11 @@ spring:
   # 设置静态文件路径，js,css等
   mvc:
     static-path-pattern: /static/**
-#  datasource:
-#    name: test
-#    url: jdbc:mysql://127.0.0.1:3306/rbac_db
-#    username: root
-#    password: root
-#    # druid 连接池
-#    type: com.alibaba.druid.pool.DruidDataSource
-#    driver-class-name: com.mysql.jdbc.Driver
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/rbac_db
+    username: root
+    password: root
+    # druid 连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
